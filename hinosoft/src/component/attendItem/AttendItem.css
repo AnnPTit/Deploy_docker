@@ -1,0 +1,47 @@
+.attendItem {
+    text-align: center;
+    padding: 40px 0 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    border-radius: 10px;
+}
+/* .attendItem .attend-type {
+    max-width: 100px;
+}
+.attendItem .attend-start {
+    max-width: 100px;
+} */
+.type-img {
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.type-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.attend-arrow {
+    position: absolute;
+    left: 70%;
+    top: 40px;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-size: 10px;
+    background-color: #2D82B5;
+}
+
+.attend-title {
+    color: #2D82B5;
+    border-radius: 20px;
+    font-style: italic;
+}
+
+.no-done {
+    color: #FD8F52;
+}

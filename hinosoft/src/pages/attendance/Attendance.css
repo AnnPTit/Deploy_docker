@@ -1,0 +1,92 @@
+.attendance {
+    min-height: 100vh;
+}
+
+.attend-type h5 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.attend-detail {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: -15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.attend-calendar {
+    margin: 20px;
+}
+
+
+
+.attend-calendar i {
+    font-size: 18px;
+    border: 1px solid gray;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.calendar-display {
+    display: flex;
+    align-self: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FD8F52;
+    text-align: center;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.calendar-display i {
+    border: none;
+    color: #fff;
+}
+
+.calendar-display input {
+    background-color: #FD8F52;
+    background-color:none;
+    text-align: center;
+    width: 140px;
+    border: none;
+    color: #fff;
+}
+
+.calendar-display input:focus-visible {
+    outline: none;
+  } 
+.attend-time input {
+    margin-top: -3px;
+    margin-left: 5px;
+    border: none;
+}
+
+.attend-time input:focus {
+    outline: none;
+}
+
+.attend-local select {
+    min-width: 100px;
+    margin-left: 5px;
+    border: none;
+}
+
+.attend-local select:focus {
+    outline: none;
+}
+
+.save-button {
+    display: flex; 
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.save-button button {
+    border-radius: 20px;
+    min-width: 120px;
+}

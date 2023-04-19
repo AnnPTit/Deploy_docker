@@ -1,0 +1,76 @@
+
+.maintenance-detail,
+.maintenance-note,
+.maintenance-history {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.maintenance-title {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+
+.maintenance-title-desc {
+    font-style: italic;
+}
+
+.maintenance-title-icon i {
+    font-size: 25px;
+    margin-bottom: none;
+    margin-right: 5px;
+    color: #f5d505;
+}
+
+.maintenance-title-icon p {
+    color: #fff;
+}
+
+.maintenance-detail {
+    font-weight: 300;
+    margin-top: -15px;
+}
+
+.maintenance-detail button {
+    border-radius: 20px;
+    min-width: 140px;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.note-title p,
+.history-title p {
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.maintenance-note {
+    /* background-color: #BCE6FF; */
+}
+
+.history-date {
+    padding: 5px;
+    background-color: whitesmoke;
+    font-style: italic;
+    color: gray;
+}
+
+.toggler {
+    display: none;
+}
+
+.active {
+    transform: rotate(180deg);
+}
+
+.history-icon i:hover,
+.note-icon i:hover {
+    cursor: pointer;
+}

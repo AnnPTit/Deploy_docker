@@ -1,0 +1,121 @@
+.header {
+    height: fit-content;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.header-title p {
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+}
+
+.header-title i,
+.nav-icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.header-avt {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: #fff 1px solid;
+    cursor: pointer;
+}
+
+.user-img img,
+.header-avt img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-contain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 80vw;
+}
+
+.nav-header {
+    width: 200%;
+    padding: 20px;
+}
+
+.user-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: crimson;
+    overflow: hidden;
+}
+
+.user-info {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.nav-items {
+    padding-left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-items li {
+    background-color: #015C92;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 0 15px 5px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-items li i {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.logout {
+    color: red;
+}
+
+.toggle {
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+    .navbar {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width: 1200) {
+    .navbar {
+        width: 30vw;
+    }
+}
